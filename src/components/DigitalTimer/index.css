@@ -1,0 +1,141 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.bgContainer {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+  margin-bottom: 60px;
+}
+.timeWrapper {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  font-size: 40px;
+  font-weight: 1000;
+  color: #cffcf1;
+}
+
+.timerStatus {
+  color: #1e293b;
+  font-weight: 800;
+}
+
+.backgroundWrapper {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 600px;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.startResetContainer {
+  display: flex;
+}
+
+.playImage {
+  width: 50px;
+}
+.resetImage {
+  width: 50px;
+}
+
+.start {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.startTitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.reset {
+  display: flex;
+  align-items: center;
+}
+
+.resetTitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.timerLimitContainer {
+  margin-top: 30px;
+}
+
+.limitControlContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.limitBtn {
+  border-width: 0px;
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #0f172a;
+  font-weight: 800;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.plus,
+.minus {
+  font-size: 30px;
+  font-weight: 800;
+  align-self: center;
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.timerlimitTitle {
+  color: #1e293b;
+  text-align: center;
+}
+
+.startBtn,
+.resetBtn {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
